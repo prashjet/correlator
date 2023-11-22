@@ -5,7 +5,8 @@ from scipy.stats import norm
 def cross_corr(a, b):
     """Cross-correlation
 
-    Calculate the cross correlation of array b against array a.
+    Calculate the cross correlation of array b against array a. Evaluated using
+    Fourier transforms.
 
     Args:
         a (array): numpy vector. Reference against which cross
